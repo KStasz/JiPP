@@ -13,8 +13,7 @@ namespace JiPP
             //AStartClass aStart = new AStartClass();
             //BStartClass bStartClass = new BStartClass();
             //CStartClass cStartClass = new CStartClass();
-            //DStartClass dStartClass = new DStartClass();
-            Console.WriteLine("Hello world!");
+            DStartClass dStartClass = new DStartClass();
         }
     }
 }
