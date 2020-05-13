@@ -10,5 +10,6 @@
     <Folder Include="Zadanie2\" />
     <Folder Include="Zadanie4\" />
     <Folder Include="Zadanie5\" />
+    <Folder Include="Zadanie6\" />
   </ItemGroup>
 </Project>
