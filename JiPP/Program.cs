@@ -15,7 +15,20 @@ namespace JiPP
             //BStartClass bStartClass = new BStartClass();
             //CStartClass cStartClass = new CStartClass();
             //DStartClass dStartClass = new DStartClass();
-            EStartClass eStartClass = new EStartClass();
+            //EStartClass eStartClass = new EStartClass();
+            Zadanie1.Horse horse = new Zadanie1.Horse();
+            Zadanie1.Cow cow = new Zadanie1.Cow();
+            Eated(horse);
+            Eated(cow);
+
+
+
+        }
+
+
+        static void Eated(Zadanie1.Animal animal)
+        {
+            animal.Eat();
         }
     }
 }
