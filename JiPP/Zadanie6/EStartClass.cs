@@ -11,7 +11,7 @@ namespace JiPP.Zadanie6
             for (int i = 1; i <= 10; i++)
             {
                 Console.Write("Wprowadź liczbę nr." + i + ": ");
-                bool result = double.TryParse(Console.ReadLine(), out double number);
+                double.TryParse(Console.ReadLine(), out double number);
                 collection.Add(number);
             }
 
