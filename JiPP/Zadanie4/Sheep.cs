@@ -5,7 +5,7 @@ namespace JiPP.Zadanie4
     {
         public void GiveSound()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("MEEE....");
         }
     }
 }

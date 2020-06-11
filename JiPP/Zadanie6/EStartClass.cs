@@ -17,9 +17,6 @@ namespace JiPP.Zadanie6
 
             Console.WriteLine("Średnia wynosi: " + avg(collection));
             Console.WriteLine("Mediana wynosi: " + median(collection));
-
-
-
         }
 
         private double median(List<double> collection)

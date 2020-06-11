@@ -5,14 +5,14 @@ namespace JiPP.Zadanie4
     {
         public CStartClass()
         {
-            Console.WriteLine(Cow.EatSomeShit());
+            Console.WriteLine(Cow.EatSome());
             Cow cow = new Cow();
             cow.GiveSound();
 
-            Console.WriteLine(Cow.EatSomeShit());
+            Console.WriteLine(Cow.EatSome());
             Console.WriteLine();
 
-            Console.WriteLine(Horse.EatSomeShit());
+            Console.WriteLine(Horse.EatSome());
             Horse horse = new Horse();
             horse.GiveSound();
         }

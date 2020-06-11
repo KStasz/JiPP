@@ -3,7 +3,7 @@ namespace JiPP.Zadanie4
 {
     public class Cow : Animal
     {
-        public static string EatSomeShit()
+        public static string EatSome()
         {
             Animal animal = new Cow();
             return animal.Eat();

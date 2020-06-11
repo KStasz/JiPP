@@ -11,24 +11,20 @@ namespace JiPP
 
         static void Main(string[] args)
         {
-            //AStartClass aStart = new AStartClass();
-            //BStartClass bStartClass = new BStartClass();
-            //CStartClass cStartClass = new CStartClass();
-            //DStartClass dStartClass = new DStartClass();
-            //EStartClass eStartClass = new EStartClass();
-            Zadanie1.Horse horse = new Zadanie1.Horse();
-            Zadanie1.Cow cow = new Zadanie1.Cow();
-            Eated(horse);
-            Eated(cow);
-
-
-
-        }
-
-
-        static void Eated(Zadanie1.Animal animal)
-        {
-            animal.Eat();
+            Console.WriteLine("Zadanie: 1");
+            AStartClass aStart = new AStartClass();
+            Console.WriteLine();
+            Console.WriteLine("Zadanie: 2");
+            BStartClass bStartClass = new BStartClass();
+            Console.WriteLine();
+            Console.WriteLine("Zadanie: 4");
+            CStartClass cStartClass = new CStartClass();
+            Console.WriteLine();
+            Console.WriteLine("Zadanie: 5");
+            DStartClass dStartClass = new DStartClass();
+            Console.WriteLine();
+            Console.WriteLine("Zadanie: 6");
+            EStartClass eStartClass = new EStartClass();
         }
     }
 }
