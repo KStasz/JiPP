@@ -13,6 +13,7 @@ namespace JiPP.Zadanie6
                 Console.Write("Wprowadź liczbę nr." + i + ": ");
                 double.TryParse(Console.ReadLine(), out double number);
                 collection.Add(number);
+                collection.Sort();
             }
 
             Console.WriteLine("Średnia wynosi: " + avg(collection));
