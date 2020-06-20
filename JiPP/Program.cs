@@ -13,18 +13,18 @@ namespace JiPP
         {
             Console.WriteLine("Zadanie: 1");
             AStartClass aStart = new AStartClass();
-            Console.WriteLine();
-            Console.WriteLine("Zadanie: 2");
-            BStartClass bStartClass = new BStartClass();
-            Console.WriteLine();
-            Console.WriteLine("Zadanie: 4");
-            CStartClass cStartClass = new CStartClass();
-            Console.WriteLine();
-            Console.WriteLine("Zadanie: 5");
-            DStartClass dStartClass = new DStartClass();
-            Console.WriteLine();
-            Console.WriteLine("Zadanie: 6");
-            EStartClass eStartClass = new EStartClass();
+            //Console.WriteLine();
+            //Console.WriteLine("Zadanie: 2");
+            //BStartClass bStartClass = new BStartClass();
+            //Console.WriteLine();
+            //Console.WriteLine("Zadanie: 4");
+            //CStartClass cStartClass = new CStartClass();
+            //Console.WriteLine();
+            //Console.WriteLine("Zadanie: 5");
+            //DStartClass dStartClass = new DStartClass();
+            //Console.WriteLine();
+            //Console.WriteLine("Zadanie: 6");
+            //EStartClass eStartClass = new EStartClass();
         }
     }
 }
